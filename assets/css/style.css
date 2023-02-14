@@ -22,6 +22,7 @@ header {
     background-color: white;
     margin: auto;
     max-width: 80%;
+    border-radius: 5px;
 }
 #pulsantiera {
     margin: auto;
@@ -30,7 +31,7 @@ header {
     background-color: white;
 }
 button {
-        padding: 4px 8px;
+    padding: 4px 8px;
     border-radius: 5px;
     border: 0;
 }
@@ -46,4 +47,24 @@ button {
 }
 section {
     margin: 5px;
+}
+ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+#main::before {
+    content: '\25BC';
+    font-size: larger;
+}
+.conferma {
+    color: greenyellow;
+}
+.conferma::before{
+    border: 1px solid greenyellow ;
+    border-radius: 50%;
+    padding: 10px 16px;
+}
+.conferma, .errata::after {
+    padding: 4px 8px;
+    border-radius: 5px;
 }
