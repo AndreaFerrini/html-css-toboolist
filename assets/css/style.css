@@ -48,9 +48,8 @@ button {
 section {
     margin: 5px;
 }
-ul li {
-    list-style: none;
-    margin: 5px 0;
+.mainmenu {
+    margin: 20px;
 }
 #main::before {
     content: '\25BC';
@@ -62,9 +61,55 @@ ul li {
 .conferma::before{
     border: 1px solid greenyellow ;
     border-radius: 50%;
-    padding: 10px 16px;
-}
-.conferma, .errata::after {
     padding: 4px 8px;
+}
+.errata  {
+    color: red;
+}
+.errata::before{
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+#etichettablu::after {
+    content: 'Editorial';
+    background-color: lightblue;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+#etichettaviola::after {
+    content: 'Q1 Goals';
+    background-color: darkviolet;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+#etichettaverdescuro::after {
+    content: 'Recruiting';
+    background-color: darkgreen;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+#etichettaarancio::after {
+    content: 'Mobile';
+    background-color: orange;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+#etichettarosa::after {
+    content: 'Mobile';
+    background-color: pink;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+#etichettaarancio::after {
+    content: 'Website';
+    background-color: orange;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+#etichettaverdechiaro::after {
+    content: 'Sales';
+    background-color: lightgreen;
+    padding: 2px 4px;
     border-radius: 5px;
 }
