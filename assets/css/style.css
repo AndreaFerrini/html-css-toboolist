@@ -78,40 +78,47 @@ section {
     background-color: lightblue;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
 #etichettaviola::after {
     content: 'Q1 Goals';
     background-color: darkviolet;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
 #etichettaverdescuro::after {
     content: 'Recruiting';
     background-color: darkgreen;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
 #etichettaarancio::after {
     content: 'Mobile';
     background-color: orange;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
 #etichettarosa::after {
     content: 'Mobile';
     background-color: pink;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
 #etichettaarancio::after {
     content: 'Website';
     background-color: orange;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
 #etichettaverdechiaro::after {
     content: 'Sales';
     background-color: lightgreen;
     padding: 2px 4px;
     border-radius: 5px;
+    margin: 10px;
 }
