@@ -1,6 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    background-color: lightgray;
+}
+header {
+    background-color: white;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+}
 #logo {
     vertical-align: middle;
 }
 #testologo {
     font-size: 50px;
+}
+.maicontainer, .container {
+    background-color: white;
+    margin: auto;
+    max-width: 80%;
+}
+#pulsantiera {
+    margin: auto;
+    padding: 5px;
+    max-width: 80%;
+    background-color: white;
+}
+button {
+        padding: 4px 8px;
+    border-radius: 5px;
+    border: 0;
+}
+#pulsante1 {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid grey;
+}
+#pulsante2 {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid grey;
+}
+section {
+    margin: 5px;
 }
