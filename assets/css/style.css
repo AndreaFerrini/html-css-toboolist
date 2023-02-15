@@ -17,6 +17,7 @@ header {
 }
 #testologo {
     font-size: 50px;
+    vertical-align: middle;
 }
 .maincontainer, .container {
     background-color: white;
